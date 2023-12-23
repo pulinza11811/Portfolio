@@ -1,0 +1,13 @@
+#menu-bar
+{
+    text-align: right;
+}
+#menu-bar li
+{
+    display: inline-block;
+}
+#menu-bar ul
+{
+    margin: 0;
+    padding: 0;
+}

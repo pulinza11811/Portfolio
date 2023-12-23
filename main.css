@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Sarabun:wght@100&display=swap');
+body
+{
+    font-family: "Sarabun" , sans-serif;
+    font-size: 16px;
+    color: rgb(100,100,100);
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "itim", sans-serif;
+}
+a
+{
+    color: coral;
+    text-decoration: none;
+}
+a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+.absolute-middle
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.absolute-middle.absolute-center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+form.style-1 input, form.style-1 button
+{
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #AAA;
+}
+form.style-1 button
+{
+    background: #AAA;
+    color: white;
+    cursor: pointer;
+}
+form.style-1 button:hover
+{
+    background: coral;
+}

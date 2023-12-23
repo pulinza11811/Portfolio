@@ -1,0 +1,14 @@
+#front-key-visual
+{
+    background: rgb(230, 230, 230);
+}
+#front-key-visual .visual-viewport
+{
+    height: 630px;
+}
+#eater-holder
+{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}

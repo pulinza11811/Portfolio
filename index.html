@@ -1,78 +1,225 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>My Food</title>
-        <link rel="stylesheet" href="styleWebTest.css">
-    </head>
-    <body>
-        <header class="top-header">
-            <a class="menu-item brand"  href="#">My resume</a>
-        </header>
-        <div class="main-content">
-            <div class="box">
-                <h2 style="text-align: center;">ประวัติโดยย่อของฉัน งานอดิเรก และทักษะของฉัน.</h2>
-                <img class="image" src="1.png">
-                <h2>สวัสดีครับ</h2>
-                <p>ผมนายปุลิน ลาภวงศ์ราษฎร์</p>
-                <p>เชิญชมผลงานของผมและทักษะคร่าวๆได้เลยครับ</p>
-                <a class="button" href="#">No Read More</a>
-            </div>
-            <div class="box">
-                <h2 style="text-align: center;">งานอดิเรก</h2>
-                <img class="image" src="https://static.thairath.co.th/media/dFQROr7oWzulq5FZUECsQlI0dqg91jeOwvhu0ouFo9Lwy8I0x6CpEMjMG7hd167kmSu.webp">
-                <h2>แบดมินตัน</h2>
-                <p>ล่าสุดขาเพิ่งบวมไปครับ ณ วันที่ 14/12/2566 เวลา 16:20น.</p>
-                <a class="button" href="#">No Read More</a>
-            </div>
-            <div class="box">
-                <style>
-                    .skill 
-                    {
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                
-                    .percentage 
-                    {
-                        float: right;
-                        text-align: right;
-                    }
-                    .centered-heading 
-                    {
-                        display: flex;
-                         justify-content: space-between;
-                    }
+        <title>Style Attribute</title>
+        <meta charset="utf-8"/>
+        <link rel="Stylesheet" href="main.css"/>
+        <link rel="Stylesheet" href="layout.css"/>
+        <link rel="Stylesheet" href="site header.css"/>
+        <link rel="Stylesheet" href="menu-bar.css"/>
+        <link rel="Stylesheet" href="front-key-visual.css"/>
+        <link rel="Stylesheet" href="visual-viewport.css"/>
+        <link rel="Stylesheet" href="eater.css"/>
+        <link rel="Stylesheet" href="front-grid.css"/>
+        <link rel="Stylesheet" href="site-footer.css"/>
 
-                    .right-text 
-                    {
-                    text-align: right;
-                    }
-                </style>
-                <h2 style="text-align: center;">Skill</h2>
-                <img class="image" src="https://media.licdn.com/dms/image/C4D0BAQE8yXAElJpZnA/company-logo_200_200/0/1655365127343?e=2147483647&v=beta&t=z8lOtDRqYBggjftDmWuTrKemhmTMLL6BdBJDDdcokJE">
-                <h2 class="centered-heading">
-                    <span>ทักษะ</span>
-                    <span class="right-text">เปอร์เซ็นต์</span>
-                </h2>
-                <p>Notion<span class="percentage">20%</span></p>
-                <p>Canva<span class="percentage">30%</span></p>
-                <p>Adobe photoshop<span class="percentage">40%</span></p>
-                <p>Adobe illustrator<span class="percentage">20%</span></p>
-                <p>Adobe premiere pro<span class="percentage">20%</span></p>
-                <p>Adobe after effects<span class="percentage">20%</span></p>
-                <p>Capcut<span class="percentage">25%</span></p>
-                <p>Figma<span class="percentage">40%</span></p>
-                <p>Artlist<span class="percentage">10%</span></p>
-                <p>3D Modeler (Scene)<span class="percentage">20%</span></p>
-                <p>Animation<span class="percentage">5%</span></p>
-                <p>ChatGPT<span class="percentage">10%</span></p>
-                <p>Web developer<span class="percentage">0.1%</span></p>
-                <a class="button" href="#">No Read More</a>
-            </div>
+
+    </head>
+        <body>
+            <section id="site-header">
+                <header id="site-logo">
+                    <h1>Games show</h1>
+                    <p id="site-slogan">
+                        Write code until you're satisfied with the progress.!!
+                    </p>
+                </header>
+                <form id="search-form" class="absolute-middle style-1">
+                    <input type="text" placeholder="Project Name..."/>
+                    <button id="search-button">
+                        Search
+                    </button>
+                </form>
+            </section>
+            <nav id="menu-bar">
+                <ul>
+                    <li><a href="">Main</a></li>
+                    <li><a href="">Performance</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+            <section id="front-key-visual">
+                <div class="visual-viewport">
+                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F82847e0f-e3bc-4c7e-93b3-c4902d296c6e%2F323271691_500363662185849_7197768645235870363_n.jpg?table=block&id=ab95dc53-34bd-4f34-98dd-e9e1c0e5d935&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"
+                    class="main-photo absolute-middle"/>
+                    <div class="mask left"></div>
+                    <div class="mask right"></div>
+                    <div class="deco-overlay">
+                        <div id="eater-holder" class="absolute-middle absolute-center">
+                            <div class="eater">
+                                <div class="eater-top-holder">
+                                    <div class="eater-top">
+
+                                    </div>
+                                </div>
+                                <div class="eater-bottom-holder">
+                                    <div class="eater-bottom">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-        </div>
-        <footer class="bottom-footer">
-            <p>About this website</p>
-            <p>Copyright 2024</p>
-        </footer>
-    </body>
+            <section id="front-grid">
+                <div class="row" id="row-1">
+                    <div class="col-1-3">
+                        <div class="quote-item">
+                            <div class="quote">
+                                I can sleep all day. I love a good night's sleep.
+                            </div>
+                            <div class="author">
+                                Pulin
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F714e107c-8c10-49b9-b107-ea24a2439fd6%2Fimage_17.png?table=block&id=370447f4-8184-46a0-aa34-5350667398c1&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Hunter Knight  
+                                            </div>
+                                        <div class="rating">
+                                            &#10084;3/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d428a4a-cfb7-489c-a4bf-75c344fec01c%2F323223560_850772306214620_7315683400357734582_n.jpg?table=block&id=f8adfa2e-9885-48a9-af2d-a2a2a7908989&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Hunt Duck 
+                                            </div>
+                                        <div class="rating">
+                                            &#10084;3/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="row-2">
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e85345e-3ebb-4177-986b-121ad3f14013%2F_2023-08-19_165903.png?table=block&id=2f415869-5d1d-434e-a40c-2a818802bc63&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Mystery room  
+                                            </div>
+                                        <div class="rating">
+                                            &#10084;3/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff541d5ed-c3d8-4394-aabd-628f3d6eeb5f%2F323292056_686738733124937_5874282412342579050_n.jpg?table=block&id=76fa77e6-674f-4b88-bd2e-d8d0315bee40&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Invert  
+                                            </div>
+                                        <div class="rating">
+                                            &#10084;3/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="quote-item">
+                            <div class="quote">
+                                I am Owen.
+                            </div>
+                            <div class="author">
+                                Pulin
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="row-3">
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12de011f-2758-401c-9997-ef4fa644293d%2F323160181_857253865555968_5390595269095034792_n.jpg?table=block&id=49a8b38a-4ec7-4ea2-bd2a-28a92a0dc8d8&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Eclipse 
+                                            </div>
+                                        <div class="rating">
+                                            &#10084;4/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="quote-item">
+                            <div class="quote">
+                                New developer.
+                            </div>
+                            <div class="author">
+                                Pulin
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="photo-item">
+                            <div class="photo-frame">
+                                <div class="photo-frame-content">
+                                    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6fdf8df5-c42e-4263-93f2-a2cc8c57f79b%2F323174129_1344621469660906_2875316783796200449_n.jpg?table=block&id=98ed0e48-a5de-46bf-8f87-fa535a82e89e&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"/>
+                                    <div class="info">
+                                        <div class="photo-name">
+                                            Chuek Chuek 
+                                        </div>
+                                        <div class="rating">
+                                            &#10084;4/5
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="front-key-visual">
+                    <div class="visual-viewport">
+                        <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6%2F46d06490-bd00-41a5-863b-ff83c7c889b7%2F-.jpg?table=block&id=154b4e90-5a69-4040-83ef-90cc121718c2&spaceId=c0318726-ad93-4ccc-8ca6-1a2d5dcbfbf6&width=600&userId=8bf6be8e-8cd3-4d48-91d0-3a29928d98bf&cache=v2"
+                        class="main-photo absolute-middle"/>
+                        <div class="mask left-1"></div>
+                        <div class="mask right-2"></div>
+                    </div>
+                </section>
+            </section>
+            <section id="site-footer">
+                &copy 2024 Portfolio Pulin Lapwongras
+                <div id="resource-disclaimer">
+                    All photos are from author's personal collection.<br/>Quotes are from
+                <a
+                    href="https://www.facebook.com/profile.php?id=100004684663805"
+                    target="_blank">Facebook.
+                </a>
+                </div>
+            </section>
+            
+        </body>
 </html>

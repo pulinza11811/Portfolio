@@ -1,0 +1,71 @@
+.col-1-3
+{
+    display: table-cell;
+    width: 33.33%;
+   vertical-align: middle;
+}
+.quote-item
+{
+    padding: 5px;
+}
+.quote-item > div.quote
+{
+    font-weight: bold;
+}
+.quote-item > div.author
+{
+    font-style: italic;
+    text-align: right;
+}
+.quote-item > div.author::before
+{
+    content: "--";
+}
+.photo-item
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.photo-frame
+{
+    padding: 5px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+}
+.photo-frame-content
+{
+    position: relative;
+}
+.photo-frame-content > img
+{
+     width: 100%;
+     display: block;
+}
+.photo-frame-content > .info
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.photo-frame-content:hover > .info
+{
+    display: block;
+}
+.photo-frame-content > .info > .photo-name
+{
+    color: white;
+    font-family: "itim",sans-serif;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.photo-frame-content > .info > .rating
+{
+    color: pink;
+    padding: 5px;
+}

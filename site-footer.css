@@ -1,0 +1,15 @@
+#site-footer
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 80px;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/406462969_891810628873775_5787995354183853582_n.png?stp=dst-png_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=sY-s7chk6loAX_cHNlx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQq-dOdBpZqou1HlMB0LgGRI66FFCnCvcybrNrAifrH3w&oe=65AE1BEF);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#resource-discleimer
+{
+    font-style: italic;
+    font-size: 0.8em;
+}
