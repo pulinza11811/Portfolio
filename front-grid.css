@@ -56,6 +56,7 @@
 .photo-frame-content:hover > .info
 {
     display: block;
+    cursor: pointer;
 }
 .photo-frame-content > .info > .photo-name
 {
